@@ -6,10 +6,19 @@ permalink: /lumeo/faq
 ---
 
 ### What if my question isn't answered here?
-Please contact me via the ```Contact Developer``` link on [Lumeo's store page]({{ site.lumeo_store_url }}) and I'll try and get back to you.
+Please contact me via the ```Contact Developer``` link on [Lumeo's store page]({{ site.lumeo_store_url }}) and I'll be in touch.
 
 ### Where can I download Lumeo?
 Find Lumeo on [Garmin's Connect IQ Store]({{ site.lumeo_store_url }}).
+
+### When will Lumeo be available for my watch?
+Lumeo will be "soft launched", starting with the Venu® 3. In the following weeks, Lumeo will be rolled out to further devices relatively quickly, as support has already been implemented for tens of devices.
+
+Following this initial launch period: Lumeo is custom-designed for each size of watch, and in some cases, even for specific watch models. This takes many hours of work, but I feel the process is worthwhile.
+
+If your watch model is very new, Lumeo should be along shortly.
+
+Older watches may be missing features that allow Lumeo to run. I hope to create new watch faces that will have even broader support than Lumeo. In the meantime, perhaps you'd like to try one of Pixel Pathos' other watch faces, like the ever-popular [Crystal]({{ site.crystal_store_url }})?
 
 ### How do I customise Lumeo?
 On most watches, you can customise Lumeo via the watch face settings **on the watch itself**. Google ```watch face settings <my watch model>``` for the relevant page of the online owner's manual.
@@ -28,10 +37,3 @@ It's most likely because Lumeo can't determine a value for now. For example, if 
 If your watch is a long distance from your phone, it will lose Bluetooth connection, and the Bluetooth symbol will appear in grey.
 
 It may also be that your device does not support that particular complication. For example, Approach® S50 and vívoactive® 5 devices don't support Floors Climbed, so that symbol will appear in grey.
-
-### When will Lumeo be available for my watch?
-Lumeo is custom-designed for each size of watch, and in some cases, even for specific watch models. This takes many hours of work, but I feel the process is worthwhile.
-
-If your watch model is very new, Lumeo should be along shortly.
-
-Older watches may be missing features that allow Lumeo to run. I hope to create new watch faces that will have even broader support than Lumeo. In the meantime, perhaps you'd like to try one of Pixel Pathos' other watch faces, like the ever-popular [Crystal]({{ site.crystal_store_url }})?
