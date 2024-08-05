@@ -4,6 +4,7 @@ title: Lumeo FAQ
 description: Lumeo, a Garmin Connect IQ watchface by Pixel Pathos
 permalink: /lumeo/faq
 ---
+![Lumeo hero image](/images/lumeo-hero-image.png)
 
 ### What if my question isn't answered here?
 Please contact me via the ```Contact Developer``` link on [Lumeo's store page]({{ site.lumeo_store_url }}) and I'll be in touch.
