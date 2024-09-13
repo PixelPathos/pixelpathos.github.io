@@ -12,6 +12,22 @@ Please contact me via the ```Contact Developer``` link on [Lumeo's store page]({
 ### Where can I download Lumeo?
 Find Lumeo on [Garmin's Connect IQ Store]({{ site.lumeo_store_url }}).
 
+### Garmin Pay doesn't work with my payment card, or in my country. Is there another way I can pay for Lumeo?
+Sorry, not at the moment. However, I hope to release a separate version of Lumeo which will accept third-party payments (KiezelPay).
+
+### I'm not happy with Lumeo. How do I get a refund?
+I'm sorry to hear that. Garmin will allow you to [request a full refund](https://support.garmin.com/en-GB/?faq=tAsPhqUXOo2L3guHjLpJa7) within the first 48 hours after purchase.
+
+If you're considering a refund, I'd appreciate it if you could contact me via [Lumeo's store page]({{ site.lumeo_store_url }}) to let me know what I can improve.
+
+### Lumeo won't install. Help!
+Firstly, ensure your watch is [running the latest firmware](https://support.garmin.com/en-GB/?faq=ZKn5UHHyEF9J3MPROKwRj8). This should happen automatically, but there may be a short delay between the firmware becoming available, and it installing on your watch.
+
+If that hasn't helped, try:
+- Turning Bluetooth off and on again;
+- Re-pairing your watch with your phone;
+- Re-installing the Connect IQ app.
+
 ### When will Lumeo be available for my watch?
 Lumeo will be "soft launched", starting with the Venu® 3. In the following weeks, Lumeo will be rolled out to further devices relatively quickly, as support has already been implemented for tens of devices.
 
