@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lumeo FAQ
-description: Lumeo, a Garmin Connect IQ watchface by Pixel Pathos
+description: Lumeo, a Garmin Connect IQ watch face by Pixel Pathos
 permalink: /lumeo/faq
 ---
 ![Lumeo hero image](/images/lumeo-hero-image.png)
@@ -44,6 +44,13 @@ If your model does not support on-device settings, then you will need to use the
 
 ### What can I customise on Lumeo?
 Almost everything: the layout, the colour, which complications are shown, the styles of the dials and meters, which indicators are shown, how long the graph history is, and so on.
+
+### What are the grey dots/coloured dashes?
+This is Lumeo's "stealth" version of the Garmin Move Bar. You can turn it off in settings.
+
+The Move Bar has 5 segments. The first, longer segment, lights up after 1 hour of inactivity. Then, each shorter segments lights up after an additional 15 minutes of inactivity. You can clear the Move Bar by taking a few steps.
+
+![Lumeo's Move Bar](/images/move-bar.png){: width="442"}
 
 ### Why can't I change between 12-hour and 24-hour format?
 You can change this via a **separate time format setting** on your watch - it's not a Lumeo setting, but Lumeo will respect it. Google ```change time format <my watch model>``` for the relevant page of the online owner's manual.
