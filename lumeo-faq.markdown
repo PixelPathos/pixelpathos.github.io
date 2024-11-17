@@ -6,19 +6,27 @@ permalink: /lumeo/faq
 ---
 ![Lumeo hero image](/images/lumeo-hero-image.png)
 
+## General
+
+### Why are there two versions of Lumeo?
+The original version of [Lumeo]({{ site.lumeo_store_url }}) only accepts payments via **Garmin Pay**.
+
+Because Garmin Pay only supports a limited number of banks, by popular request, a separate version, [Lumeo (KiezelPay)]({{ site.lumeo_kpay_store_url }}), accepts payments via **KiezelPay**. You can pay using PayPal (no additional fee, recommended), or direct credit card payments ($0.30 fee).
+
+### Which version of Lumeo is better?
+Both Garmin Pay and KiezelPay versions of Lumeo will receive exactly the same feature updates, bug fixes and support, except where a fix is related to the payment system itself.
+
+### Why is the KiezelPay version more expensive?
+This is because KiezelPay charges developers nearly double the fee compared to Garmin Pay. The KiezelPay version is priced so that Pixel Pathos receives approximately the same payment as the Garmin Pay version.
+
+### Is the payment one-off, or a monthly subscription?
+It's one-off. There are no ongoing charges.
+
 ### What if my question isn't answered here?
-Please contact me via the ```Contact Developer``` link on [Lumeo's store page]({{ site.lumeo_store_url }}) and I'll be in touch.
+Please contact me via the ```Contact Developer``` link on the appropriate Lumeo store page ([Garmin Pay]({{ site.lumeo_store_url }}) or [KiezelPay]({{ site.lumeo_kpay_store_url }})) and I'll be in touch.
 
 ### Where can I download Lumeo?
-Find Lumeo on [Garmin's Connect IQ Store]({{ site.lumeo_store_url }}).
-
-### Garmin Pay doesn't work with my payment card, or in my country. Is there another way I can pay for Lumeo?
-Sorry, not at the moment. However, I hope to release a separate version of Lumeo which will accept third-party payments (KiezelPay).
-
-### I'm not happy with Lumeo. How do I get a refund?
-I'm sorry to hear that. Garmin will allow you to [request a full refund](https://support.garmin.com/en-GB/?faq=tAsPhqUXOo2L3guHjLpJa7) within the first 48 hours after purchase.
-
-If you're considering a refund, I'd appreciate it if you could contact me via [Lumeo's store page]({{ site.lumeo_store_url }}) to let me know what I can improve.
+Find Lumeo on Garmin's Connect IQ Store: [Garmin Pay]({{ site.lumeo_store_url }}) or [KiezelPay]({{ site.lumeo_kpay_store_url }})).
 
 ### Lumeo won't install. Help!
 Firstly, ensure your watch is [running the latest firmware](https://support.garmin.com/en-GB/?faq=ZKn5UHHyEF9J3MPROKwRj8). This should happen automatically, but there may be a short delay between the firmware becoming available, and it installing on your watch.
@@ -28,14 +36,33 @@ If that hasn't helped, try:
 - Re-pairing your watch with your phone;
 - Re-installing the Connect IQ app.
 
-### When will Lumeo be available for my watch?
-Lumeo will be "soft launched", starting with the Venu® 3. In the following weeks, Lumeo will be rolled out to further devices relatively quickly, as support has already been implemented for tens of devices.
+## Garmin Pay version
 
-Following this initial launch period: Lumeo is custom-designed for each size of watch, and in some cases, even for specific watch models. This takes many hours of work, but I feel the process is worthwhile.
+### Can I trial Lumeo before paying?
+Garmin Pay requires that you pay up front, but you then have 48 hours to try Lumeo. If you are not happy, you can [request a full refund]({{ site.garmin_refund_url }}) within that period.
 
-If your watch model is very new, Lumeo should be along shortly.
+### Garmin Pay doesn't work with my payment card, or in my country. Is there another way I can pay for Lumeo?
+The separate [KiezelPay version of Lumeo]({{ site.lumeo_kpay_store_url }}) (also see below) accepts payments via PayPal and credit card.
 
-Older watches may be missing features that allow Lumeo to run. I hope to create new watch faces that will have even broader support than Lumeo. In the meantime, perhaps you'd like to try one of Pixel Pathos' other watch faces, like the ever-popular [Crystal]({{ site.crystal_store_url }})?
+### I'm not happy with Lumeo. How do I get a refund?
+I'm sorry to hear that. Garmin will allow you to [request a full refund]({{ site.garmin_refund_url }}) within the first 48 hours after purchase.
+
+If you're considering asking for a refund, I'd appreciate it if you could contact me via [Lumeo's store page]({{ site.lumeo_store_url }}) to let me know what I can improve.
+
+## KiezelPay version
+
+### How does KiezelPay work?
+Download and install Lumeo as normal. You will then have {{ site.lumeo_kpay_trial_hours }} hours to try Lumeo, completely free. After this period, Lumeo will show a 6-digit code. You will then need to go to www.kzl.io/code and enter the code. You will then be able to make a payment, and Lumeo will unlock.
+
+### Why does Lumeo need to run in the background, and access the internet?
+This is to allow the KiezelPay integration to access the KiezelPay servers only, to check payment status.
+
+### Can I get a refund?
+You can get a refund within 30 days of purchasing the KiezelPay version of Lumeo by following the instructions [here](https://kiezelpay.com/faq/faq-refund).
+
+If you're considering asking for a refund, I'd appreciate it if you could contact me via [Lumeo (KiezelPay)'s store page]({{ site.lumeo_kpay_store_url }}) to let me know what I can improve.
+
+## Features
 
 ### How do I customise Lumeo?
 On most watches, you can customise Lumeo via the watch face settings **on the watch itself**. Google ```watch face settings <my watch model>``` for the relevant page of the online owner's manual.
