@@ -33,6 +33,7 @@ Firstly, ensure your watch is [running the latest firmware](https://support.garm
 
 If that hasn't helped, try:
 - Turning Bluetooth off and on again;
+- Restarting your watch and your phone;
 - Re-pairing your watch with your phone;
 - Re-installing the Connect IQ app.
 
@@ -72,12 +73,30 @@ If your model does not support on-device settings, then you will need to use the
 ### What can I customise on Lumeo?
 Almost everything: the layout, the colour, which complications are shown, the styles of the dials and meters, which indicators are shown, how long the graph history is, and so on.
 
+### How do custom themes work?
+A Lumeo custom theme consists of 3 colours:
+- A "bright" colour, that's used for the dots on the meters, as well as the top of the time and meter gradients;
+- A "main" colour, that's used for all the icons and coloured text, as well as the middle of the gradients;
+- A "dark" colour, that's used for the bottom of the gradients.
+
+The easiest way to edit the theme is on the watch itself:
+- On AMOLED watches, the custom theme is the last theme in the list. The custom theme preview will show a "cog" icon. Tap that to open the theme editor.
+- On MIP watches, ensure the custom theme is selected. Then, there is a separate ```Edit Custom Theme``` top-level menu item which will open the theme editor.
+
+The theme editor shows the 3 theme colours at the bottom (bright/main/dark in that order). It shows which one is currently being edited, and a preview of how the gradient will look.
+
+Select the colour you wish to edit, then edit it using the colour wheel and square (AMOLED) or the colour picker (MIP).
+
+The custom theme is stored as a single string of 3 ```#RRGGBB``` hex codes (bright/main/dark), as shown in the theme editor. These codes can be manually entered into the Custom Theme setting when editing Lumeo's settings in the Connect IQ app on your phone. This means that themes can be shared online.
+
+![Lumeo's Colour Picker](/images/lumeo-colour-picker.png)
+
 ### What are the grey dots/coloured dashes?
 This is Lumeo's "stealth" version of the Garmin Move Bar. You can turn it off in settings.
 
 The Move Bar has 5 segments. The first, longer segment, lights up after 1 hour of inactivity. Then, each shorter segments lights up after an additional 15 minutes of inactivity. You can clear the Move Bar by taking a few steps.
 
-![Lumeo's Move Bar](/images/move-bar.png){: width="442"}
+![Lumeo's Move Bar](/images/lumeo-move-bar.png){: width="442"}
 
 ### Why can't I change between 12-hour and 24-hour format?
 You can change this via a **separate time format setting** on your watch - it's not a Lumeo setting, but Lumeo will respect it. Google ```change time format <my watch model>``` for the relevant page of the online owner's manual.
