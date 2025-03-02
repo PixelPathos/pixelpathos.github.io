@@ -42,4 +42,20 @@ Weather fields will now show a coloured dot, indicating the status of the OpenWe
 | <span style="color:#FF5500">Orange</span> | Other HTTP error. |
 | <span style="color:#00AAFF">Blue</span> | A request to OpenWeather has been queued, and will be made within the next 5 minutes. **If you have just set up OpenWeather, no data will be visible until the initial request has completed.** |
 | <span style="color:white">White</span> | Successfully sent a request to OpenWeather; now awaiting response. |
-| <span style="color:green">Green</span> | Up-to-date weather information successfully received. This indication will automatically disappear after 1 minutes. |
+| <span style="color:#00FF00">Green</span> | Up-to-date weather information successfully received. This indication will automatically disappear after 1 minute. |
+
+## Advanced Weather
+
+### What is Advanced Weather?
+Advanced Weather replaces the usual middle dial (Dial 2) with a more detailed weather display. In addition to the current condition, and min/current/max temperatures, there are **3 new fields** (see above screenshot) where you can show additional information.
+
+The feature is available on all watches, and works either with Garmin Weather, or OpenWeather.
+
+### How do I enable Advanced Weather?
+- Select one of the layouts that shows dials: Max Data, Dials and Graph, or Dials. You can do this via the ```Layout``` submenu in Lumeo's settings.
+- Ensure that Dial 2 is set to Weather. Use the ```Data``` submenu for this.
+- In the ```Weather``` submenu, turn on the ```Advanced Weather``` setting.
+- That submenu also allows you to configure the 3 fields. Fields marked ```[GW]``` are only available when using Garmin Weather, while fields marked ```[OW]``` are only available when using OpenWeather.
+
+
+
