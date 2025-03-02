@@ -107,3 +107,6 @@ It's most likely because Lumeo can't determine a value for now. For example, if 
 If your watch is a long distance from your phone, it will lose Bluetooth connection, and the Bluetooth symbol will appear in grey.
 
 It may also be that your device does not support that particular complication. For example, Approach® S50 and vívoactive® 5 devices don't support Floors Climbed, so that symbol will appear in grey.
+
+### What is OpenWeather/Advanced Weather?
+Find out more about Lumeo's weather features [here](/lumeo/weather).

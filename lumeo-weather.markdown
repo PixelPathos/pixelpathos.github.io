@@ -56,6 +56,3 @@ The feature is available on all watches, and works either with Garmin Weather, o
 - Ensure that Dial 2 is set to Weather. Use the ```Data``` submenu for this.
 - In the ```Weather``` submenu, turn on the ```Advanced Weather``` setting.
 - That submenu also allows you to configure the 3 fields. Fields marked ```[GW]``` are only available when using Garmin Weather, while fields marked ```[OW]``` are only available when using OpenWeather.
-
-
-
