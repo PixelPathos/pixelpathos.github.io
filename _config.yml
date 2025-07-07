@@ -61,6 +61,11 @@ plugins:
 lumeo_store_url: https://apps.garmin.com/apps/1330c898-8d68-4744-8886-41c13ae55151
 lumeo_kpay_store_url: https://apps.garmin.com/apps/22bb01ba-ace2-4662-8690-f4e56d0bdeb9
 lumeo_kpay_trial_hours: 24
+
 crystal_store_url: https://apps.garmin.com/apps/9fd04d09-8c80-4c81-9257-17cfa0f0081b
+crystal_reborn_store_url: https://apps.garmin.com/apps/d21cbf61-978b-428f-bb45-7d779c31695e
+crystal_reborn_kpay_store_url: https://apps.garmin.com/apps/d21cbf61-978b-428f-bb45-7d779c31695e
+crystal_reborn_kpay_trial_hours: 24
+
 garmin_refund_url: https://support.garmin.com/en-GB/?faq=tAsPhqUXOo2L3guHjLpJa7
 openweather_sign_up_url: https://home.openweathermap.org/users/sign_up
