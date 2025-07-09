@@ -4,7 +4,7 @@ title: Crystal Reborn FAQ
 description: Crystal Reborn, a Garmin Connect IQ watch face by Pixel Pathos
 permalink: /crystal-reborn/faq
 ---
-![Crystal Reborn hero image](/images/crystal-reborn-hero-image.png)
+![Crystal Reborn hero image](/images/crystal-reborn/hero-image.png)
 
 ## General
 
