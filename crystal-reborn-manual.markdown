@@ -29,7 +29,7 @@ You can customise the data shown in the following areas of the watch face:
 Not all complications are available in all areas. Not all complications are supported on a given device. If a given complication is not supported, the icon will be shown in grey without a value.
 
 ### Complications
-The following is a list of all complications supported by Crystal Reborn. Icons will take on theme colour if **Colourful Icons** setting is turned off.
+The following is a list of all complications supported by Crystal Reborn. Icons will take on the theme colour if the [Colourful Icons](#colourful-icons) setting is turned off.
 
 | Icon | Name | Side Meter | Data Field | Indicator | Notes |
 | :--: | :--- | :--------: | :--------: | :-------: | :---- |
@@ -42,7 +42,7 @@ The following is a list of all complications supported by Crystal Reborn. Icons 
 | ![Active Calories](/images/crystal-reborn/icons/calories@2x.png){: width="32"} | Active Calories | ✅ | ✅ | | Estimate of active calories, based on gender, age, height, weight, and total calories. Side meter uses same Calories Goal as above. |
 | ![Floors Climbed](/images/crystal-reborn/icons/floors-climbed@2x.png){: width="32"} | Floors Climbed | ✅ | ✅ | | Only supported by watches with barometers. |
 | ![Active Minutes](/images/crystal-reborn/icons/active-minutes@2x.png){: width="32"} | Active Minutes | ✅ | ✅ | | |
-| ![Current Weather Day](/images/crystal-reborn/icons/weather-day@2x.png){: width="32"}![Current Weather Night](/images/crystal-reborn/icons/weather-night@2x.png){: width="32"}etc. | Current Weather | | ✅ | | Most watches default to Garmin Weather as data source. OpenWeather is also supported, and is the only data source if Garmin Weather is not supported. See OpenWeather section for more details. <br><br>Temperature in **celcius** (metric) or **farenheit** (statute), depending on watch units setting. |
+| ![Current Weather Day](/images/crystal-reborn/icons/weather-day@2x.png){: width="32"}![Current Weather Night](/images/crystal-reborn/icons/weather-night@2x.png){: width="32"}etc. | Current Weather | | ✅ | | Most watches default to Garmin Weather as data source. OpenWeather is also supported, and is the only data source if Garmin Weather is not supported. See [OpenWeather](#openweather) section for more details. <br><br>Temperature in **celcius** (metric) or **farenheit** (statute), depending on watch units setting. |
 | ![Humidity](/images/crystal-reborn/icons/humidity@2x.png){: width="32"} | Humidity | | ✅ | | Value from the same data source as weather. |
 | ![Sunrise](/images/crystal-reborn/icons/sunrise@2x.png){: width="32"}![Sunset](/images/crystal-reborn/icons/sunset@2x.png){: width="32"}| Sunrise/Sunset | | ✅ | | Times taken from Garmin Weather if supported, otherwise calculated for current date and location. |
 | ![Altitude](/images/crystal-reborn/icons/altitude@2x.png){: width="32"} | Altitude | | ✅ | | Altitude in **metres** (metric) or **feet** (statute), depending on watch units setting. |
@@ -69,14 +69,42 @@ The following is a list of all complications supported by Crystal Reborn. Icons 
 
 ## Colour
 
+#### Theme
+
+The theme colour changes the base colour of major elements of the watch face: the time, the side meters and the move bar. If the [Colourful Icons](#colourful-icons) setting is turned off, then all icons will take on the theme colour.
+
+Theme colours either have a dark (black) or light (white) background. White backgrounds will affect battery life on AMOLED devices. In AOD mode, the background will always be black, regardless of the theme.
+
+| ![Dark Theme](/images/crystal-reborn/dark-theme.png){: width="125"} | ![Dark Theme AOD](/images/crystal-reborn/dark-theme-aod.png){: width="125"} | ![Light Theme](/images/crystal-reborn/light-theme.png){: width="125"} | ![Light Theme AOD](/images/crystal-reborn/light-theme-aod.png){: width="125"} |
+| :-: | :-: | :-: | :-: |
+| Dark Theme | Dark Theme AOD | Light Theme | Light Theme AOD |
+
+#### Colour Gradients
+
+Show a colour gradient on the time, and for AMOLED devices, on the side meters and move bar.
+
+| ![Colour Gradients On (AMOLED)](/images/crystal-reborn/colour-gradients-on-amoled.png){: width="125"} | ![Colour Gradients Off (AMOLED)](/images/crystal-reborn/colour-gradients-off-amoled.png){: width="125"} | ![Colour Gradients On (MIP)](/images/crystal-reborn/colour-gradients-on-mip.png){: width="125"} | ![Colour Gradients Off (MIP)](/images/crystal-reborn/colour-gradients-off-mip.png){: width="125"} |
+| :-: | :-: | :-: | :-: |
+| Colour Gradients On (AMOLED) | Colour Gradients Off (AMOLED) | Colour Gradients On (MIP) | Colour Gradients Off (MIP) |
+
+#### Colourful Icons
+
+If turned on, each icon will be assigned a specific colour to make it stand out. If turned off, all icons will take on the theme colour.
+
+#### Hours Colour
+
+#### Minutes Colour
+
 ## Style
 
 ## Always On
 
-Calories Goal
+#### Calories Goal
 
-Hide Hours Leading Zero
+#### Hide Hours Leading Zero
 
-Hide Seconds
+#### Hide Seconds
 
-App Version
+#### App Version
+
+## OpenWeather
