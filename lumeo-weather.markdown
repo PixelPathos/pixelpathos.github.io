@@ -32,12 +32,12 @@ Lumeo can access the internet a maximum of once every 5 minutes. **This means yo
 ### How do I know OpenWeather is working?
 Weather fields will now show a coloured dot, indicating the status of the OpenWeather data:
 
-![Lumeo's Open Weather Status Indication](/images/lumeo-open-weather-status-indication.png)
+![Lumeo's OpenWeather Status Indication](/images/lumeo-open-weather-status-indication.png)
 
 | Dot Colour | Meaning |
 | --- | --- |
 | <span style="color:#666666">Grey</span> | No internet connection, or other request error. Ensure watch is paired with phone that has internet access. |
-| <span style="color:#FFAA00">Yellow</span> | Unknown location, so can't request local weather. Lumeo initially requires a location from Garmin Weather, so ensure watch is paried with phone that has internet access. Lumeo will store the current location in case a live location is no longer available. |
+| <span style="color:#FFAA00">Yellow</span> | Unknown location, so can't request local weather. Lumeo initially requires a location from Garmin Weather, so ensure watch is paired with a phone that has internet access. Lumeo will store the current location in case a live location is no longer available. |
 | <span style="color:red">Red</span> | Invalid API Key. Check that you have entered a valid OpenWeather key correctly. |
 | <span style="color:#FF5500">Orange</span> | Other HTTP error. |
 | <span style="color:#00AAFF">Blue</span> | A request to OpenWeather has been queued, and will be made within the next 5 minutes. **If you have just set up OpenWeather, no data will be visible until the initial request has completed.** |
