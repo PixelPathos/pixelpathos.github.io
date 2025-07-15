@@ -68,4 +68,5 @@ crystal_reborn_kpay_store_url: https://apps.garmin.com/apps/d21cbf61-978b-428f-b
 crystal_reborn_kpay_trial_hours: 24
 
 garmin_refund_url: https://support.garmin.com/en-GB/?faq=tAsPhqUXOo2L3guHjLpJa7
+garmin_regions_url: https://developer.garmin.com/connect-iq/monetization/app-sales/
 openweather_sign_up_url: https://home.openweathermap.org/users/sign_up

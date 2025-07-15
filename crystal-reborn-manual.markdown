@@ -6,8 +6,6 @@ permalink: /crystal-reborn/manual
 ---
 ![Crystal Reborn hero image](/images/crystal-reborn/hero-image.png)
 
-The manual is currently a work-in-progress.
-
 # Overview
 
 ![Crystal Reborn overview](/images/crystal-reborn/manual-overview.png){: width="960"}
