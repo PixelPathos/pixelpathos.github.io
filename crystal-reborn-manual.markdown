@@ -183,10 +183,10 @@ The version number of Crystal Reborn currently running on the watch. This is use
 
 # OpenWeather
 
-## What is OpenWeather?
+### What is OpenWeather?
 [OpenWeather](https://openweathermap.org/) is a popular third-party weather service. It is offered as an alternative to Garmin's own built-in weather service, as some users report that OpenWeather provides a more accurate forecast.
 
-## How do I get started?
+### How do I get started?
 You will need a free OpenWeather API key, which you then need to enter in the "OpenWeather Key" box in Crystal Reborn's settings in the Connect IQ app.
 
 - **[Sign up for a free OpenWeather account]({{ openweather_sign_up_url }})** if you don't already have one. You will receive an account confirmation e-mail.
@@ -194,7 +194,12 @@ You will need a free OpenWeather API key, which you then need to enter in the "O
 - **Click on the "API keys" tab.** You will see that an API key has already been generated for you. Copy, or write down this key.
 - **In Crystal Reborn's settings in the Connect IQ app, paste the key into the "OpenWeather Key" box, and save**. Note you can also do this in Garmin Express, but not currently on the watch itself. If you already have an OpenWeather key, you can skip the previous steps and use your existing key here instead.
 
-## How will Crystal Reborn use the OpenWeather API key?
+### With the original Crystal, I didn't have to sign up for an OpenWeather key! What's changed?
+The original Crystal used a shared OpenWeather key that was kindly provided by OpenWeather for use under an open source agreement. As Crystal Reborn is no longer open source, it cannot use the shared key.
+
+If you do not wish to sign up for your own OpenWeather key, Crystal Reborn will use data from Garmin Weather, which is supported on most watches.
+
+### How will Crystal Reborn use the OpenWeather API key?
 Crystal Reborn uses the "Current weather and forecast" service, and not "One Call" (at the moment).
 
 Crystal Reborn will fetch the latest weather via the internet when detects that the weather data it holds is older than 30 minutes. It will check the age of its data (before making a request) each time you wake your watch.
@@ -203,7 +208,7 @@ Additionally, each time you change settings, Crystal Reborn will fetch the lates
 
 Crystal Reborn can access the internet a maximum of once every 5 minutes. **This means you may see a delay, especially when activating OpenWeather for the first time.**
 
-## How do I know OpenWeather is working?
+### How do I know OpenWeather is working?
 The weather field will now show a coloured dot, indicating the status of the OpenWeather data:
 
 ![Crystal Reborn's OpenWeather Status Indication](/images/crystal-reborn/openweather-status-indication.png){: width="239"}
