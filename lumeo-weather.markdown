@@ -21,7 +21,7 @@ You will need a free OpenWeather API key, which you then need to enter in the "O
 - **In Lumeo's settings in the Connect IQ app, paste the key into the "OpenWeather Key" box, and save**. Note you can also do this in Garmin Express, but not currently on the watch itself. If you already have an OpenWeather key, you can skip the previous steps and use your existing key here instead.
 
 ### How will Lumeo use the OpenWeather API key?
-Lumeo uses the "Current weather and forecast" service, and not "One Call" (at the moment).
+Lumeo uses the "Current Weather Data" and "5 Day / 3 Hour Forecast" APIs from the "Current & Forecast weather data collection". It does not currently use the "One Call API 3.0", as that requires users to enter payment details. 
 
 Lumeo will fetch the latest weather via the internet when detects that the weather data it holds is older than 30 minutes. It will check the age of its data (before making a request) each time you wake your watch.
 
@@ -43,6 +43,13 @@ Weather fields will now show a coloured dot, indicating the status of the OpenWe
 | <span style="color:#00AAFF">Blue</span> | A request to OpenWeather has been queued, and will be made within the next 5 minutes. **If you have just set up OpenWeather, no data will be visible until the initial request has completed.** |
 | <span style="color:white">White</span> | Successfully sent a request to OpenWeather; now awaiting response. |
 | <span style="color:#00FF00">Green</span> | Up-to-date weather information successfully received. This indication will automatically disappear after 1 minute. |
+
+### A note about minimum/maximum temperatures when using OpenWeather
+The only free OpenWeather endpoints that do not require payments details are "Current Weather Data" and "5 Day / 3 Hour Forecast". The min/max temps provided with the current weather data are current min/max only, whereas we want min/max for the day as per Garmin Weather.
+
+The "5 Day / 3 Hour Forecast" endpoint provides min/max temps for 3-hour intervals throughout the day. For example, if it is now 8am, the next min/max values available are those covering the period 9am to noon (and then from noon to 3pm, etc.). Similarly, if it is now 10pm, the next period is midnight to 3am for tomorrow. In lieu of min/max for the entire current day, including from the start of today (midnight) until now, the best Lumeo can do is to report the min/max for the remainder of the day, as historical data is not available, and it would not be correct for Lumeo to try and record min/max temps from earlier in the day, in case the wearer changes location, and those recorded temps are no longer valid.
+
+In future, I may integrate the "One Call" endpoint which does provide min/max for the entire current day. This assumes wearers would be happy to provide payment details to OpenWeather (even if payment will not actually be taken), and that the endpoint does not return so much additional data as to cause memory issues with Lumeo.
 
 ## Advanced Weather
 
