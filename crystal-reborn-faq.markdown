@@ -9,7 +9,7 @@ permalink: /crystal-reborn/faq
 ## General
 
 ### What if my question isn't answered here?
-Please contact me via the ```Contact Developer``` link on the appropriate Crystal Reborn store page ([Garmin Pay]({{ site.crystal_reborn_store_url }}) or [KiezelPay]({{ site.crystal-reborn_kpay_store_url }})) and I'll be in touch.
+Please contact me via the ```Contact Developer``` link on the appropriate Crystal Reborn store page ([Garmin Pay]({{ site.crystal_reborn_store_url }}) or [KiezelPay]({{ site.crystal_reborn_kpay_store_url }})) and I'll be in touch.
 
 ### Crystal Reborn versions
 **The KiezelPay version of Crystal Reborn is coming soon.**
@@ -19,7 +19,7 @@ There are two versions of Crystal Reborn available in the Connect IQ store. The 
 | | Garmin Pay | KiezelPay |
 | ----- | ----- | ----- |
 | **Description** | First-party payments handled by Garmin. **RECOMMENDED**, if supported by your region and bank. | Third-party payments handled by KiezelPay. |
-| **Store URL** | [Garmin Pay store page]({{ site.crystal_reborn_store_url }}). | [KiezelPay store page]({{ site.crystal-reborn_kpay_store_url }}). |
+| **Store URL** | [Garmin Pay store page]({{ site.crystal_reborn_store_url }}). | [KiezelPay store page]({{ site.crystal_reborn_kpay_store_url }}). |
 | **Supported regions** | Please see [this list of regions]({{ site.garmin_regions_url }}) supported by Garmin for first-party purchases. | All regions supported by PayPal, or your chosen payment method. |
 | **Payment methods** | By **card**, from a smaller range of banks. | **PayPal** (free). Also by **card**, from a wider range of banks ($0.30 fee). |
 | **Price** | **Cheaper** (exact price varies by region). | **More expensive**, because KiezelPay charges developers nearly double the fee compared to Garmin. |
