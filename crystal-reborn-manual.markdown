@@ -78,6 +78,18 @@ Theme colours either have a dark (black) or light (white) background. In order t
 | :-: | :-: | :-: | :-: |
 | Dark Theme | Dark Theme AOD | Light Theme (MIP only) |
 
+#### Custom Themes
+
+In addition to the built-in themes, there are two custom themes for you to choose your own colours. On AMOLED devices, these are simply called **Custom Theme 1** and **Custom Theme 2** - both are dark. On MIP devices, they are called **Custom Theme (Dark)** and **Custom Theme (Light)**
+
+On most devices, when you select a custom theme, you will be taken to the custom theme editor on the device, where you can choose your own colours.
+
+| ![Custom Theme Editor (AMOLED)](/images/crystal-reborn/custom-theme-editor-amoled.png){: width="125"} | ![Custom Theme Editor (MIP)](/images/crystal-reborn/custom-theme-editor-mip.png){: width="125"} |
+| :-: | :-: |
+| Custom Theme Editor (AMOLED) | Custom Theme Editor (MIP) |
+
+On older watches, you will be able to select a custom theme, but the theme editor is not available on the device. Instead, **you will need to use the Connect IQ phone app to set a custom colour via the settings**. If you Google "colour picker", you will be shown a tool which you can use to choose a colour - you will then be shown the hex code in the form `#RRGGBB` that you need to enter in Connect IQ app settings. Alternatively, you can use a tool such as [this one](https://redketchup.io/color-picker) to get the hex code you need.
+
 ### Colour Gradients
 
 Show a colour gradient on the time, and for AMOLED devices, on the side meters and move bar.
