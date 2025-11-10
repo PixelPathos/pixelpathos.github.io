@@ -23,8 +23,15 @@ You can customise the data shown in the following areas of the watch face:
 - Indicator 1
 - Indicator 2
 - Indicator 3
+- Move Bar
 
 Not all complications are available in all areas. Not all complications are supported on a given device. If a given complication is not supported, the icon will be shown in grey without a value.
+
+### Move Bar
+
+By default, the Move Bar (below the time) shows 5 segments. The first, larger segment lights up after 1 hour of inactivity. Each of the remaining segments light up after a further 15 minutes of inactivity, so a fully-lit bar indicates 2 hours of inactivity. You can clear the Move Bar by walking a few steps.
+
+The Move Bar can be customised to show a limited number of other complications, in which case it will show 10 segments. You can choose whether or not to show an icon for the customised Move Bar.
 
 ### Complications
 
@@ -40,7 +47,7 @@ The following is a list of all complications supported by Crystal Reborn. Icons 
 | ![Calories](/images/crystal-reborn/icons/calories@2x.png){: width="32"} | Calories | ✅ | ✅ | | [Calories Goal](#calories-goal) for side meter is set manually via separate setting. |
 | ![Active Calories](/images/crystal-reborn/icons/calories@2x.png){: width="32"} | Active Calories | ✅ | ✅ | | Estimate of active calories, based on gender, age, height, weight, and total calories. Side meter uses same [Calories Goal](#calories-goal) as above. |
 | ![Floors Climbed](/images/crystal-reborn/icons/floors-climbed@2x.png){: width="32"} | Floors Climbed | ✅ | ✅ | | Only supported by watches with barometers. |
-| ![Active Minutes](/images/crystal-reborn/icons/active-minutes@2x.png){: width="32"} | Active Minutes | ✅ | ✅ | | |
+| ![Active Minutes](/images/crystal-reborn/icons/active-minutes@2x.png){: width="32"} | Active Minutes | ✅ | ✅ | | Total active minutes for the current week. |
 | ![Current Weather Day](/images/crystal-reborn/icons/weather-day@2x.png){: width="32"}![Current Weather Night](/images/crystal-reborn/icons/weather-night@2x.png){: width="32"}etc. | Current Weather | | ✅ | | Most watches default to Garmin Weather as data source. OpenWeather is also supported, and is the only data source if Garmin Weather is not supported. See [OpenWeather](#openweather) section for more details. <br><br>Temperature in **celcius** (metric) or **farenheit** (statute), depending on watch units setting. |
 | ![Humidity](/images/crystal-reborn/icons/humidity@2x.png){: width="32"} | Humidity | | ✅ | | Value from the same data source as weather. |
 | ![Sunrise](/images/crystal-reborn/icons/sunrise@2x.png){: width="32"}![Sunset](/images/crystal-reborn/icons/sunset@2x.png){: width="32"}| Sunrise/Sunset | | ✅ | | Times taken from Garmin Weather if supported.<br><br>On older watches without Garmin Weather support e.g. fēnix® 5 Plus, you will need to **acquire a GPS lock by starting an activity**. Sunrise/sunset will then be calculated for the current date and location. |
@@ -165,6 +172,8 @@ In Crystal Reborn, you can independently control which elements are shown in Alw
 - Move Bar
 
 Note that in Always On mode, in order to save battery, the side meter and move bar segments are made thinner, the goal values for the side meters are hidden, and seconds are hidden.
+
+You can control the brightness of the AOD, with the brightness of the time controllable separately from the rest of the display.
 
 ### Calories Goal
 
