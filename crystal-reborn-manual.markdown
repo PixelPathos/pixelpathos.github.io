@@ -210,7 +210,7 @@ The version number of Crystal Reborn currently running on the watch. This is use
 ### How do I get started?
 You will need a free OpenWeather API key, which you then need to enter in the "OpenWeather Key" box in Crystal Reborn's settings in the Connect IQ app.
 
-- **[Sign up for a free OpenWeather account]({{ openweather_sign_up_url }})** if you don't already have one. You will receive an account confirmation e-mail.
+- **[Sign up for a free OpenWeather account]({{ site.openweather_sign_up_url }})** if you don't already have one. You will receive an account confirmation e-mail.
 - **Click on the "Verify your email" button** in the confirmation e-mail. This will log you in to your OpenWeather account.
 - **Click on the "API keys" tab.** You will see that an API key has already been generated for you. Copy, or write down this key.
 - **In Crystal Reborn's settings in the Connect IQ app, paste the key into the "OpenWeather Key" box, and save**. Note you can also do this in Garmin Express, but not currently on the watch itself. If you already have an OpenWeather key, you can skip the previous steps and use your existing key here instead.
