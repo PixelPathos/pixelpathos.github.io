@@ -40,4 +40,32 @@ Orbula is designed to be highly customisable. Here are some of the things you ca
 {% include settings-menu-manual-pages.md %}
 {% endcapture %}
 
-{{ settings-menu-manual-pages | markdownify }}
+{{ settings-menu-manual-page    s | markdownify }}
+
+## Appearance
+
+| | Time + 3 Dials | Time + 4 Dials | Time + 5 Dials | Time + 6 Dials |
+| :- | :-: | :-: | :-: | :-: |
+| **Top** | ![Time + 3 Dials, Top](/images/orbula/3-dials-top.png){: width="125"} | ![Time + 4 Dials, Top](/images/orbula/4-dials-top.png){: width="125"} | ![Time + 5 Dials, Top](/images/orbula/5-dials-top.png){: width="125"} | ![Time + 6 Dials](/images/orbula/6-dials.png){: width="125"} 
+| **Right** | ![Time + 3 Dials, Right](/images/orbula/3-dials-right.png){: width="125"} | ![Time + 4 Dials, Right](/images/orbula/4-dials-right.png){: width="125"} | ![Time + 5 Dials, Right](/images/orbula/5-dials-right.png){: width="125"} | |
+| **Bottom** | ![Time + 3 Dials, Bottom](/images/orbula/3-dials-bottom.png){: width="125"} | ![Time + 4 Dials, Bottom](/images/orbula/4-dials-bottom.png){: width="125"} | ![Time + 5 Dials, Bottom](/images/orbula/5-dials-bottom.png){: width="125"} | |
+| **Left** | ![Time + 3 Dials, Left](/images/orbula/3-dials-left.png){: width="125"} | ![Time + 4 Dials, Left](/images/orbula/4-dials-left.png){: width="125"} | ![Time + 5 Dials, Left](/images/orbula/5-dials-left.png){: width="125"} | |
+
+### Layout
+
+Number of satellite dials (the time dial is always visible). Options are:
+
+- Time + 3 Dials
+- Time + 4 Dials (default)
+- Time + 5 Dials
+- Time + 6 Dials
+
+### Time Position
+
+Set the position of the time dial. When 6 satellite dials are shown on round watches, time is always central regardless of this settings. Options are:
+
+- Top
+- Right
+- Bottom
+- Left (default)
+
