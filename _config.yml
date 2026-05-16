@@ -67,10 +67,11 @@ crystal_reborn_store_url: https://apps.garmin.com/apps/f3c3d2d3-6efa-49da-bdab-3
 crystal_reborn_kpay_store_url: https://apps.garmin.com/apps/111ed5fc-c61f-47ec-b05d-aac856024d06
 crystal_reborn_kpay_trial_hours: 24
 
-orbula-store_url: https://apps.garmin.com/apps/1220a9d7-4e43-4020-9d4c-b22900ff50c2
+orbula_store_url: https://apps.garmin.com/apps/1220a9d7-4e43-4020-9d4c-b22900ff50c2
 orbula_kpay_store_url: https://apps.garmin.com/apps/b760a6a8-2078-44b5-b29e-2c5514929c33
 orbula_kpay_trial_hours: 24
 
 garmin_refund_url: https://support.garmin.com/en-GB/?faq=tAsPhqUXOo2L3guHjLpJa7
+kpay_refund_url: https://kiezelpay.com/faq/faq-refund
 garmin_regions_url: https://developer.garmin.com/connect-iq/monetization/app-sales/
 openweather_sign_up_url: https://home.openweathermap.org/users/sign_up
