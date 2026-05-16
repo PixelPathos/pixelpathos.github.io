@@ -3,6 +3,7 @@ layout: default
 title: Crystal Reborn FAQ
 description: Crystal Reborn, a Garmin Connect IQ watch face by Pixel Pathos
 permalink: /crystal-reborn/faq
+app_name: Crystal Reborn
 ---
 ![Crystal Reborn hero image](/images/crystal-reborn/hero-image.png)
 
@@ -15,7 +16,6 @@ Please contact me via the ```App Support``` link on the appropriate Crystal Rebo
 
 {% capture versions %}
 {% include gpay-kpay-versions.md
-    app_name="Crystal Reborn"
     gpay_store_url=site.crystal_reborn_store_url
     kpay_store_url=site.crystal_reborn_kpay_store_url
     kpay_trial_hours=site.crystal_reborn_kpay_trial_hours

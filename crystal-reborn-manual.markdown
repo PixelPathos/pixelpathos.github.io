@@ -3,6 +3,7 @@ layout: default
 title: Crystal Reborn Manual
 description: Crystal Reborn, a Garmin Connect IQ watch face by Pixel Pathos
 permalink: /crystal-reborn/manual
+app_name: Crystal Reborn
 ---
 ![Crystal Reborn hero image](/images/crystal-reborn/hero-image.png)
 
@@ -11,6 +12,12 @@ permalink: /crystal-reborn/manual
 ![Crystal Reborn overview](/images/crystal-reborn/manual-overview.png){: width="960"}
 
 # Settings menu
+
+{% capture settings-menu-manual-pages %}
+{% include settings-menu-manual-pages.md %}
+{% endcapture %}
+
+{{ settings-menu-manual-pages | markdownify }}
 
 ## Data
 
