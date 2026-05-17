@@ -107,6 +107,12 @@ Orbula allows separate control of the time brightness in always on mode e.g. to 
 
 ## Time
 
+| --- | :- |
+| ![Default Time Display](/images/orbula/time-default.png){: width="91"} | White semibold hours, white semibold bar separator, theme-colour light minutes (default). |
+| ![Time Variant 1](/images/orbula/time-variant-1.png){: width="91"} | Theme-colour bold hours and minutes, white bold colon separator. |
+| ![Time Variant 2](/images/orbula/time-variant-2.png){: width="91"} | White bold hours, no separator, theme-colour extralight minutes. |
+| ![Time Variant 3](/images/orbula/time-variant-3.png){: width="91"} | White semibold hours, grey extralight colon separator, grey light minutes |
+
 | Time | Leading Zero Off<br>12-hour | Leading Zero On<br>12-hour | Leading Zero Off<br>24-hour | Leading Zero On<br>24-hour<br>(Military Time) |
 | --- | :-: | :-: | :-: | :-: |
 | 6am | **6**00 | **06**00 | **6**00 | **06**00 |
