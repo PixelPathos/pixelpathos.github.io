@@ -172,8 +172,8 @@ The **Left Side Meter** and **Right Side Meter** settings control the data visib
 | Icon | Name | Notes |
 | :-: | :- | :- |
 | | Off | Hide the meter. |
-| ![Battery](/images/orbula/icon-battery.png){: width="32"} | Battery (%) | Current battery level in %. |
-| ![Battery](/images/orbula/icon-battery.png){: width="32"} | Battery (Days) | Current battery level, with estimated remaining battery life. |
+| ![Battery (%)](/images/orbula/icon-battery.png){: width="32"} | Battery (%) | Current battery level in %. |
+| ![Battery (Days)](/images/orbula/icon-battery.png){: width="32"} | Battery (Days) | Current battery level, with estimated remaining battery life. |
 | ![Steps](/images/orbula/icon-steps.png){: width="32"}| Steps | |
 | ![Calories](/images/orbula/icon-calories.png){: width="32"} | Calories | Calories burnt for the current day. Calories goal is set manually using the [Calories Goal](#calories-goal) setting. |
 | ![Active Calories](/images/orbula/icon-calories.png){: width="32"} | Active Calories | An estimate of active calories burnt for the current day, based on gender, age, height, weight, and total calories. Active calories goal is set manually using the same [Calories Goal](#calories-goal) setting as above. |
@@ -187,3 +187,12 @@ The **Left Side Meter** and **Right Side Meter** settings control the data visib
 | ![Oxygen Saturation](/images/orbula/icon-o2-sat.png){: width="32"} | Oxygen Saturation | |
 | ![Solar Input](/images/orbula/icon-solar-input.png){: width="32"} | Solar Input | Solar watches only. |
 | ![Wheelchair Pushes](/images/orbula/icon-wheelchair-pushes.png){: width="32"} | Wheelchair Pushes | In wheelchair mode only. |
+
+## Dials
+
+Up to 6 dials may be shown in addition to the time dial, depending on the selected ![layout](#layout).
+
+| Dial | Name | Notes |
+| :-: | :- | :- |
+| ![Battery (%)](/images/orbula/dial-battery-percent.png){: width="80"} | Battery (%) | Current battery level in %. |
+|  | Battery (Days) | Current battery level, with estimated remaining battery life. |
