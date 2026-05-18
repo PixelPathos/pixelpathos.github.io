@@ -27,7 +27,7 @@ app_name: Orbula
 ![Orbula overview](/images/orbula/overview@2x.png){: width="960"}
 
 Orbula is designed to be highly customisable. Here are some of the things you can change:
-- The [number of satellite dials](#layout) from 3 to 6;
+- The [number of "satellite" dials](#layout) from 3 to 6;
 - The [position of the time dial](#time-position);
 - The [theme](#theme-colour), [background](#background) and [icon](#colourful-icons) colours;
 - The time format ([12/24 hour](#time-format), and [leading zero](#show-hours-leading-zero));
@@ -155,7 +155,7 @@ Control the appearance of the separator.
 
 ### Minutes Font/Minutes Colour
 
-Control the appearance of the separator.
+Control the appearance of the minutes.
 
 ### Show Hours Leading Zero
 
@@ -165,5 +165,25 @@ If the hour number would be a single digit, add a zero before that digit. Defaul
 
 Default is on. Note that AMOLED devices will always hide the seconds in always on mode, regardless of this setting.
 
+## Side Meters
 
+The **Left Side Meter** and **Right Side Meter** settings control the data visible on each side of the time. Only values that have a goal (e.g. steps goal) or maximum (e.g. 100% for battery) can be shown here. The numerical value is shown above each meter. Options are:
 
+| Icon | Name | Notes |
+| :-: | :- | :- |
+| | Off | Hide the meter. |
+| ![Battery](/images/orbula/icon-battery.png){: width="32"} | Battery (%) | Current battery level in %. |
+| ![Battery](/images/orbula/icon-battery.png){: width="32"} | Battery (Days) | Current battery level, with estimated remaining battery life. |
+| ![Steps](/images/orbula/icon-steps.png){: width="32"}| Steps | |
+| ![Calories](/images/orbula/icon-calories.png){: width="32"} | Calories | Calories burnt for the current day. Calories goal is set manually using the [Calories Goal](#calories-goal) setting. |
+| ![Active Calories](/images/orbula/icon-calories.png){: width="32"} | Active Calories | An estimate of active calories burnt for the current day, based on gender, age, height, weight, and total calories. Active calories goal is set manually using the same [Calories Goal](#calories-goal) setting as above. |
+| ![Floors Climbed](/images/orbula/icon-floors-climbed.png){: width="32"} | Floors Climbed | Only supported by watches with barometers. |
+| ![Active Minutes (Weekly)](/images/orbula/icon-active-minutes.png){: width="32"} | Active Minutes (Weekly) | |
+| ![Recovery Time](/images/orbula/icon-recovery-time.png){: width="32"} | Recovery Time | Maximum value is 4 days. |
+| ![Stress](/images/orbula/icon-stress.png){: width="32"} | Stress | |
+| ![Body Battery](/images/orbula/icon-body-battery.png){: width="32"} | Body Battery | If a current value is not available, an historical value up to 10 minutes old will be shown. |
+| ![Run VO2 Max](/images/orbula/icon-run-vo2-max.png){: width="32"} | Run VO2 Max | Maximum value is 60. |
+| ![Bike VO2 Max](/images/orbula/icon-bike-vo2-max.png){: width="32"} | Bike VO2 Max | Maximum value is 60. |
+| ![Oxygen Saturation](/images/orbula/icon-o2-sat.png){: width="32"} | Oxygen Saturation | |
+| ![Solar Input](/images/orbula/icon-solar-input.png){: width="32"} | Solar Input | Solar watches only. |
+| ![Wheelchair Pushes](/images/orbula/icon-wheelchair-pushes.png){: width="32"} | Wheelchair Pushes | In wheelchair mode only. |
