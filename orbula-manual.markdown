@@ -190,9 +190,11 @@ The **Left Side Meter** and **Right Side Meter** settings control the data visib
 
 ## Dials
 
-Up to 6 dials may be shown in addition to the time dial, depending on the selected ![layout](#layout).
+Up to 6 dials may be shown in addition to the time dial, depending on the selected [layout](#layout).
 
 | Dial | Name | Notes |
 | :-: | :- | :- |
 | ![Battery (%)](/images/orbula/dial-battery-percent.png){: width="80"} | Battery (%) | Current battery level in %. |
-|  | Battery (Days) | Current battery level, with estimated remaining battery life. |
+| ![Battery (Days)](/images/orbula/dial-battery-days.png){: width="80"}| Battery (Days) | Current battery level, with estimated remaining battery life. |
+| ![Steps](/images/orbula/dial-steps.png){: width="80"}| Steps | |
+| ![Steps (Daily)](/images/orbula/dial-steps-daily.png){: width="80"}| Steps (Daily) | Each of the 8 bars on the chart represents a day. <span style="color:white">The rightmost bar in white is today</span>. The leftmost bar is one week ago. The height of each bar is the number of steps that day. <span style="color:#AAAAAA">The thin grey line is the goal for that day</span>. <span style="color:red">A red bar means the goal was achieved</span>; <span style="color:#AAAAAA">a grey bar means the goal was not achieved</span>.
