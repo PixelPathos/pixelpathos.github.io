@@ -194,7 +194,45 @@ Up to 6 dials may be shown in addition to the time dial, depending on the select
 
 | Dial | Name | Notes |
 | :-: | :- | :- |
-| ![Battery (%)](/images/orbula/dial-battery-percent.png){: width="80"} | Battery (%) | Current battery level in %. |
-| ![Battery (Days)](/images/orbula/dial-battery-days.png){: width="80"}| Battery (Days) | Current battery level, with estimated remaining battery life. |
-| ![Steps](/images/orbula/dial-steps.png){: width="80"}| Steps | |
-| ![Steps (Daily)](/images/orbula/dial-steps-daily.png){: width="80"}| Steps (Daily) | Each of the 8 bars on the chart represents a day. <span style="color:white">The rightmost bar in white is today</span>. The leftmost bar is one week ago. The height of each bar is the number of steps that day. <span style="color:#AAAAAA">The thin grey line is the goal for that day</span>. <span style="color:red">A red bar means the goal was achieved</span>; <span style="color:#AAAAAA">a grey bar means the goal was not achieved</span>.
+| ![Battery (%)](/images/orbula/dial-battery-percent@2x.png){: width="72" style="max-width: none;"} | Battery (%) | Current battery level in %. |
+| ![Battery (Days)](/images/orbula/dial-battery-days@2x.png){: width="72"} | Battery (Days) | Current battery level, with estimated remaining battery life. |
+| ![Steps](/images/orbula/dial-steps@2x.png){: width="72"} | Steps | |
+| ![Steps (Daily)](/images/orbula/dial-steps-daily@2x.png){: width="72"} | Steps (Daily) | Each bar represents the number of steps on that day. The leftmost bar is one week ago, the rightmost <span style="color:white">white</span> bar is today. A <span style="color:red">theme-coloured</span> bar means the goal was achieved that day; otherwise, the bar is <span style="color:#808080">grey</span>, and the thin <span style="color:#808080">grey</span> line shows the goal value. |
+| ![Calories](/images/orbula/dial-calories@2x.png){: width="72"} | Calories | Calories goal is set manually using the [Calories Goal](#calories-goal) setting. |
+| ![Calories (Daily)](/images/orbula/dial-calories-daily@2x.png){: width="72"} | Calories (Daily) | Calories goal is set manually using the [Calories Goal](#calories-goal) setting, and is used for all days |
+| ![Active Calories](/images/orbula/dial-active-calories@2x.png){: width="72"} | Active Calories | An estimate of active calories burnt for the current day, based on gender, age, height, weight, and total calories. Active calories goal is set manually using the same [Calories Goal](#calories-goal) setting as above. |
+| ![Floors Climbed](/images/orbula/dial-floors-climbed@2x.png){: width="72"} | Floors Climbed |  |
+| ![Floors Climbed Daily](/images/orbula/dial-floors-climbed-daily@2x.png){: width="72"} | Floors Climbed (Daily) |  |
+| ![Active Minutes (Weekly)](/images/orbula/dial-active-minutes@2x.png){: width="72"} | Active Minutes (Weekly) |  |
+| ![Weather](/images/orbula/dial-weather@2x.png){: width="72"} | Weather | Current forecast temperature and condition. Dial min/max temperatures are for the whole day (Garmin Weather) or the remainder of the day (OpenWeather). |
+| ![Weather (Min/Max)](/images/orbula/dial-weather-min-max@2x.png){: width="72"} | Weather (Min/Max) | Current forecast temperature and condition, plus min/max temperatures for the whole day (Garmin Weather) or the remainder of the day (OpenWeather). |
+| ![Humidity](/images/orbula/dial-humidity@2x.png){: width="72"} | Humidity |  |
+| ![Sunrise/Sunset](/images/orbula/dial-sunrise-sunset@2x.png){: width="72"} | Sunrise/Sunset | Time and type of next "sun event" (sunrise or sunset). Dial represents time between previous and next sun events e.g. how far through daytime you are.  |
+| ![Sunrise/Sunset (Today)](/images/orbula/dial-sunrise-sunset-today@2x.png){: width="72"} | Sunrise/Sunset (Today) | Sunrise time (top), sunset time (bottom) and next "sun event" icon (sunrise or sunset). Time of next sun event is shown in <span style="color:white">white</span>. Bar represents the current 24 hours: <span style="color:#808080">grey</span> is night, <span style="color:#ffaa00">yellow</span> is day, and <span style="color:white">white</span> pointer is the current time.|
+|  | Altitude |  |
+|  | Altitude (Graph) |  |
+|  | Pressure |  |
+|  | Pressure (Graph) |  |
+|  | Notifications |  |
+|  | Heart Rate |  |
+|  | Heart Rate (Graph) |  |
+|  | Heart Rate (Zones) |  |
+|  | Weekly Run Distance |  |
+|  | Weekly Bike Distance |  |
+|  | Recovery Time |  |
+|  | Stress |  |
+|  | Stress (Graph) |  |
+|  | Body Battery |  |
+|  | Body Battery (Graph) |  |
+|  | Run VO2 Max |  |
+|  | Bike VO2 Max |  |
+|  | Oxygen Saturation |  |
+|  | Oxygen Saturation (12h Graph) |  |
+|  | Respiration Rate |  |
+|  | Solar Input |  |
+|  | Thermometer |  |
+|  | Thermometer (Graph) |  |
+|  | Wheelchair Pushes |  |
+|  | Wheelchair Pushes (Daily) |  |
+|  | Distance |  |
+|  | Alarms |  |
