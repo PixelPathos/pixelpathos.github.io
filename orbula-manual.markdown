@@ -179,7 +179,7 @@ The **Left Side Meter** and **Right Side Meter** settings control the data visib
 | ![Active Calories](/images/orbula/icon-calories.png){: width="32"} | Active Calories | An estimate of active calories burnt for the current day, based on gender, age, height, weight, and total calories. Active calories goal is set manually using the same [Calories Goal](#calories-goal) setting as above. |
 | ![Floors Climbed](/images/orbula/icon-floors-climbed.png){: width="32"} | Floors Climbed | Only supported by watches with barometers. |
 | ![Active Minutes (Weekly)](/images/orbula/icon-active-minutes.png){: width="32"} | Active Minutes (Weekly) | |
-| ![Recovery Time](/images/orbula/icon-recovery-time.png){: width="32"} | Recovery Time | Maximum value is 4 days. |
+| ![Recovery Time](/images/orbula/icon-recovery-time.png){: width="32"} | Recovery Time | Maximum value is 96 hours (4 days). |
 | ![Stress](/images/orbula/icon-stress.png){: width="32"} | Stress | |
 | ![Body Battery](/images/orbula/icon-body-battery.png){: width="32"} | Body Battery | If a current value is not available, an historical value up to 10 minutes old will be shown. |
 | ![Run VO2 Max](/images/orbula/icon-run-vo2-max.png){: width="32"} | Run VO2 Max | Maximum value is 60. |
@@ -208,31 +208,45 @@ Up to 6 dials may be shown in addition to the time dial, depending on the select
 | ![Weather (Min/Max)](/images/orbula/dial-weather-min-max@2x.png){: width="72"} | Weather (Min/Max) | Current forecast temperature and condition, plus min/max temperatures for the whole day (Garmin Weather) or the remainder of the day (OpenWeather). |
 | ![Humidity](/images/orbula/dial-humidity@2x.png){: width="72"} | Humidity |  |
 | ![Sunrise/Sunset](/images/orbula/dial-sunrise-sunset@2x.png){: width="72"} | Sunrise/Sunset | Time and type of next "sun event" (sunrise or sunset). Dial represents time between previous and next sun events e.g. how far through daytime you are.  |
-| ![Sunrise/Sunset (Today)](/images/orbula/dial-sunrise-sunset-today@2x.png){: width="72"} | Sunrise/Sunset (Today) | Sunrise time (top), sunset time (bottom) and next "sun event" icon (sunrise or sunset). Time of next sun event is shown in <span style="color:white">white</span>. Bar represents the current 24 hours: <span style="color:#808080">grey</span> is night, <span style="color:#ffaa00">yellow</span> is day, and <span style="color:white">white</span> pointer is the current time.|
-|  | Altitude |  |
-|  | Altitude (Graph) |  |
-|  | Pressure |  |
-|  | Pressure (Graph) |  |
-|  | Notifications |  |
-|  | Heart Rate |  |
-|  | Heart Rate (Graph) |  |
-|  | Heart Rate (Zones) |  |
-|  | Weekly Run Distance |  |
-|  | Weekly Bike Distance |  |
-|  | Recovery Time |  |
+| ![Sunrise/Sunset (Today)](/images/orbula/dial-sunrise-sunset-today@2x.png){: width="72"} | Sunrise/Sunset (Today) | Sunrise time (top), sunset time (bottom) and next "sun event" icon (sunrise or sunset). Time of next sun event today is shown in <span style="color:white">white</span>. Bar represents the current 24 hours: <span style="color:#808080">grey</span> is night, <span style="color:#ffaa00">yellow</span> is day, and <span style="color:white">white</span> pointer is the current time.|
+| ![Altitude](/images/orbula/dial-altitude@2x.png){: width="72"} | Altitude | Current altitude in **m** (metric) or **ft** (statute), based on the Elevation Units setting on your watch. |
+| ![Altitude (Graph)](/images/orbula/dial-altitude-graph@2x.png){: width="72"} | Altitude (Graph) | Each of the 12 bars represent the min and max altitude for a 5-minute period by default i.e. 1 hour total. The graph duration can be changed using the [Graph Duration](#graph-duration) setting. A <span style="color:#808080">grey</span> circle is shown if no value is available for that time period. |
+| ![Pressure](/images/orbula/dial-pressure@2x.png){: width="72"} | Pressure | Current pressure in **mb/hPa**, **inHg** or **mmHg**, based on the [Pressure Units](#pressure-units) setting. |
+| ![Pressure (Graph)](/images/orbula/dial-pressure-graph@2x.png){: width="72"} | Pressure (Graph) | Pressure in **mb/hPa**, **inHg** or **mmHg**, based on the [Pressure Units](#pressure-units) setting. The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
+| ![Notifications](/images/orbula/dial-notifications@2x.png){: width="72"} | Notifications | Number of unread phone notifications. Icon is shown in <span style="color:#808080">grey</span> if there are no notifications. |
+| ![Heart Rate](/images/orbula/dial-heart-rate@2x.png){: width="72"} | Heart Rate | The minimum value is your resting heart rate, or zone 1 minimum if not available. The maximum value is zone 5 maximum. Heart rate zones are taken from your user profile. |
+| ![Heart Rate (Graph)](/images/orbula/dial-heart-rate-graph@2x.png){: width="72"} | Heart Rate (Graph) | The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
+| ![Heart Rate (Zones)](/images/orbula/dial-heart-rate-zones@2x.png){: width="72"} | Heart Rate (Zones) | The 5 heart rate zones (<span style="color:#aaaaaa">Z1</span>, <span style="color:#00aaff">Z2</span>, <span style="color:lightgreen">Z3</span>, <span style="color:#ffaa00">Z4</span>, <span style="color:red">Z5</span>) are taken from your user profile. |
+| ![Weekly Run Distance](/images/orbula/dial-weekly-run-distance@2x.png){: width="72"} | Weekly Run Distance | Distance in **km** (metric) or **mi** (statute), based on the Distance Units setting on your watch. |
+| ![Weekly Bike Distance](/images/orbula/dial-weekly-bike-distance@2x.png){: width="72"} | Weekly Bike Distance | Distance in **km** (metric) or **mi** (statute), based on the Distance Units setting on your watch. |
+| ![Recovery Time](/images/orbula/dial-recovery-time@2x.png){: width="72"}| Recovery Time | Maximum value is 96 hours (4 days). |
 |  | Stress |  |
-|  | Stress (Graph) |  |
+|  | Stress (Graph) | The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
 |  | Body Battery |  |
-|  | Body Battery (Graph) |  |
+|  | Body Battery (Graph) | The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
 |  | Run VO2 Max |  |
 |  | Bike VO2 Max |  |
 |  | Oxygen Saturation |  |
-|  | Oxygen Saturation (12h Graph) |  |
+|  | Oxygen Saturation (12h Graph) | The graph duration is always 12 hours, as oxygen saturation is recorded infrequently. |
 |  | Respiration Rate |  |
 |  | Solar Input |  |
 |  | Thermometer |  |
-|  | Thermometer (Graph) |  |
+|  | Thermometer (Graph) | The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
 |  | Wheelchair Pushes |  |
 |  | Wheelchair Pushes (Daily) |  |
 |  | Distance |  |
 |  | Alarms |  |
+
+## Calories Goal
+
+## Graph Duration
+
+## Pressure Units
+
+Units used for the Pressure and Pressure (Graph) dials. Options are:
+
+- **mb/hPa**: millibars/hectopascals (default)
+- **inHg**: inches of mercury
+- **mmHg**: millimeters of mercury
+
+Note that if your watch has a separate Pressure Units setting, this will **not** be used, due to a technical limitation.
