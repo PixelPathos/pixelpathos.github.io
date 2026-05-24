@@ -19,4 +19,4 @@ There are two versions of {{ page.app_name }} available in the Connect IQ store.
 | **Purchase type** | One-off (not subscription). Purchase is forever, and tied to your Garmin account. | One-off (not subscription). Purchase is forever, and tied to your Garmin account. |
 | **Refunds** | Please [contact Garmin directly]({{ site.garmin_refund_url }}) to request a refund within 48 hours of purchase. | Please [follow these instructions]({{ site.kpay_refund_url }}) to request a refund from KiezelPay within 30 days of purchase. |
 
-If you're considering a refund, please contact me first via the ```App Support``` link on the appropriate store page, as I would like to try and make things right.
+If you're considering a refund, please contact me first via the **App Support** link on the appropriate store page, as I would like to try and make things right.

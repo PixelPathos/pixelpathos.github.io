@@ -204,8 +204,8 @@ Up to 6 dials may be shown in addition to the time dial, depending on the select
 | ![Floors Climbed](/images/orbula/dial-floors-climbed@2x.png){: width="72"} | Floors Climbed |  |
 | ![Floors Climbed Daily](/images/orbula/dial-floors-climbed-daily@2x.png){: width="72"} | Floors Climbed (Daily) |  |
 | ![Active Minutes (Weekly)](/images/orbula/dial-active-minutes@2x.png){: width="72"} | Active Minutes (Weekly) |  |
-| ![Weather](/images/orbula/dial-weather@2x.png){: width="72"} | Weather | Current forecast temperature and condition. Dial min/max temperatures are for the whole day (Garmin Weather) or the remainder of the day (OpenWeather). |
-| ![Weather (Min/Max)](/images/orbula/dial-weather-min-max@2x.png){: width="72"} | Weather (Min/Max) | Current forecast temperature and condition, plus min/max temperatures for the whole day (Garmin Weather) or the remainder of the day (OpenWeather). |
+| ![Weather](/images/orbula/dial-weather@2x.png){: width="72"} | Weather | Current forecast temperature and condition. Dial min/max temperatures are for the whole day (Garmin Weather) or the remainder of the day (OpenWeather). Temperature is in degrees **celcius** (metric) or **farenheit** (statute), based on the Temperature Units setting on your watch. |
+| ![Weather (Min/Max)](/images/orbula/dial-weather-min-max@2x.png){: width="72"} | Weather (Min/Max) | Current forecast temperature and condition, plus min/max temperatures for the whole day (Garmin Weather) or the remainder of the day (OpenWeather). Temperatures are in degrees **celcius** (metric) or **farenheit** (statute), based on the Temperature Units setting on your watch. |
 | ![Humidity](/images/orbula/dial-humidity@2x.png){: width="72"} | Humidity |  |
 | ![Sunrise/Sunset](/images/orbula/dial-sunrise-sunset@2x.png){: width="72"} | Sunrise/Sunset | Time and type of next "sun event" (sunrise or sunset). Dial represents time between previous and next sun events e.g. how far through daytime you are.  |
 | ![Sunrise/Sunset (Today)](/images/orbula/dial-sunrise-sunset-today@2x.png){: width="72"} | Sunrise/Sunset (Today) | Sunrise time (top), sunset time (bottom) and next "sun event" icon (sunrise or sunset). Time of next sun event today is shown in <span style="color:white">white</span>. Bar represents the current 24 hours: <span style="color:#808080">grey</span> is night, <span style="color:#ffaa00">yellow</span> is day, and <span style="color:white">white</span> pointer is the current time.|
@@ -220,26 +220,30 @@ Up to 6 dials may be shown in addition to the time dial, depending on the select
 | ![Weekly Run Distance](/images/orbula/dial-weekly-run-distance@2x.png){: width="72"} | Weekly Run Distance | Distance in **km** (metric) or **mi** (statute), based on the Distance Units setting on your watch. |
 | ![Weekly Bike Distance](/images/orbula/dial-weekly-bike-distance@2x.png){: width="72"} | Weekly Bike Distance | Distance in **km** (metric) or **mi** (statute), based on the Distance Units setting on your watch. |
 | ![Recovery Time](/images/orbula/dial-recovery-time@2x.png){: width="72"}| Recovery Time | Maximum value is 96 hours (4 days). |
-|  | Stress |  |
-|  | Stress (Graph) | The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
-|  | Body Battery |  |
-|  | Body Battery (Graph) | The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
-|  | Run VO2 Max |  |
-|  | Bike VO2 Max |  |
-|  | Oxygen Saturation |  |
-|  | Oxygen Saturation (12h Graph) | The graph duration is always 12 hours, as oxygen saturation is recorded infrequently. |
-|  | Respiration Rate |  |
-|  | Solar Input |  |
-|  | Thermometer |  |
-|  | Thermometer (Graph) | The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
-|  | Wheelchair Pushes |  |
-|  | Wheelchair Pushes (Daily) |  |
-|  | Distance |  |
-|  | Alarms |  |
+| ![Stress](/images/orbula/dial-stress@2x.png){: width="72"} | Stress |  |
+| ![Stress (Graph)](/images/orbula/dial-stress-graph@2x.png){: width="72"} | Stress (Graph) | The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
+| ![Body Battery](/images/orbula/dial-body-battery@2x.png){: width="72"} | Body Battery |  |
+| ![Body Battery (Graph)](/images/orbula/dial-body-battery-graph@2x.png){: width="72"} | Body Battery (Graph) | The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
+| ![Run VO2 Max](/images/orbula/dial-run-vo2-max@2x.png){: width="72"} | Run VO2 Max | Maximum value is 60. |
+| ![Bike VO2 Max](/images/orbula/dial-bike-vo2-max@2x.png){: width="72"} | Bike VO2 Max | Maximum value is 60. |
+| ![Oxygen Saturation](/images/orbula/dial-o2-sat@2x.png){: width="72"} | Oxygen Saturation |  |
+| ![Oxygen Saturation (12h Graph)](/images/orbula/dial-o2-sat-graph@2x.png){: width="72"} | Oxygen Saturation (12h Graph) | The graph duration is always 12 hours, as oxygen saturation is recorded infrequently. |
+| ![Respiration Rate](/images/orbula/dial-respiration-rate@2x.png){: width="72"} | Respiration Rate | In breaths-per-minute. |
+| ![Solar Input](/images/orbula/dial-solar-input@2x.png){: width="72"} | Solar Input | Solar watches only. |
+| ![Thermometer](/images/orbula/dial-thermometer@2x.png){: width="72"} | Thermometer | Temperature, as measured by your watch, in degrees **celcius** (metric) or **farenheit** (statute), based on the Temperature Units setting on your watch. |
+| ![Thermometer (Graph)](/images/orbula/dial-thermometer-graph@2x.png){: width="72"} | Thermometer (Graph) | Temperature, as measured by your watch, in degrees **celcius** (metric) or **farenheit** (statute), based on the Temperature Units setting on your watch. The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
+| ![Wheelchair Pushes](/images/orbula/dial-wheelchair-pushes@2x.png){: width="72"} | Wheelchair Pushes | In wheelchair mode only. |
+| ![Wheelchair Pushes (Daily)](/images/orbula/dial-wheelchair-pushes-daily@2x.png){: width="72"} | Wheelchair Pushes (Daily) | In wheelchair mode only. |
+| ![Distance](/images/orbula/dial-distance@2x.png){: width="72"} | Distance | Total distance for the current day, in **km** (metric) or **mi** (statute), based on the Distance Units setting on your watch. |
+| ![Alarms](/images/orbula/dial-alarms@2x.png){: width="72"} | Alarms | Number of alarms set on your watch. |
 
 ## Calories Goal
 
+Goal value for Calories and Active Calories side meters and dials. Choose a value between 200 and 8,000 Calories/kcal. Defaults to 2,000.
+
 ## Graph Duration
+
+Time period used by "(Graph)" dials, except for Oxygen Saturation (12h Graph). Choose a value between 1 and 6 hours. Defaults to 1 hour.
 
 ## Pressure Units
 
