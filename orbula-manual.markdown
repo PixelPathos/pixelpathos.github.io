@@ -5,8 +5,6 @@ description: Orbula, a Garmin Connect IQ watch face by Pixel Pathos
 permalink: /orbula/manual
 app_name: Orbula
 ---
-**The Orbula manual is currently a work in progress.**
-
 ![Orbula hero image](/images/orbula/hero-image.png)
 
 # Versions
@@ -250,6 +248,14 @@ Choose to show up to 3 additional icons outside of the dials. Defaults are **Bat
 | ![Alarms](/images/orbula/icon-alarms.png){: width="32"}<br>![Alarms None](/images/orbula/icon-alarms-disabled.png){: width="32"} | Alarms | Icon will be shown in colour if you have at least one alarm set. |
 | ![Bluetooth Connected](/images/orbula/icon-bluetooth.png){: width="32"}<br>![Bluetooth Disconnected](/images/orbula/icon-bluetooth-disabled.png){: width="32"} | Bluetooth | Icon will be shown in colour if your watch has a Bluetooth connection to your phone. |
 | ![Notifications](/images/orbula/icon-notifications.png){: width="32"}<br>![Alarms None](/images/orbula/icon-notifications-disabled.png){: width="32"} | Notifications | Icon will be shown in colour if you have at least one unread phone notification. |
+
+## Line Meter
+
+**Work in progress.**
+
+## OpenWeather Key
+
+**Work in progress.**
 
 ## Calories Goal
 
