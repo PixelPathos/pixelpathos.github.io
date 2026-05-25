@@ -173,7 +173,7 @@ The **Left Side Meter** and **Right Side Meter** settings control the data visib
 | :-: | :- | :- |
 | | Off | Hide the meter. |
 | ![Battery (%)](/images/orbula/icon-battery.png){: width="32"} | Battery (%) | Current battery level in %. |
-| ![Battery (Days)](/images/orbula/icon-battery.png){: width="32"} | Battery (Days) | Current battery level, with estimated remaining battery life. |
+| ![Battery (Days)](/images/orbula/icon-battery.png){: width="32"} | Battery (Days) | Current battery level, with estimated remaining battery life in days or hours. |
 | ![Steps](/images/orbula/icon-steps.png){: width="32"}| Steps | |
 | ![Calories](/images/orbula/icon-calories.png){: width="32"} | Calories | Calories burnt for the current day. Calories goal is set manually using the [Calories Goal](#calories-goal) setting. |
 | ![Active Calories](/images/orbula/icon-calories.png){: width="32"} | Active Calories | An estimate of active calories burnt for the current day, based on gender, age, height, weight, and total calories. Active calories goal is set manually using the same [Calories Goal](#calories-goal) setting as above. |
@@ -195,7 +195,7 @@ Up to 6 dials may be shown in addition to the time dial, depending on the select
 | Dial | Name | Notes |
 | :-: | :- | :- |
 | ![Battery (%)](/images/orbula/dial-battery-percent@2x.png){: width="72" style="max-width: none;"} | Battery (%) | Current battery level in %. |
-| ![Battery (Days)](/images/orbula/dial-battery-days@2x.png){: width="72"} | Battery (Days) | Current battery level, with estimated remaining battery life. |
+| ![Battery (Days)](/images/orbula/dial-battery-days@2x.png){: width="72"} | Battery (Days) | Current battery level, with estimated remaining battery life in days or hours. |
 | ![Steps](/images/orbula/dial-steps@2x.png){: width="72"} | Steps | |
 | ![Steps (Daily)](/images/orbula/dial-steps-daily@2x.png){: width="72"} | Steps (Daily) | Each bar represents the number of steps on that day. The leftmost bar is one week ago, the rightmost <span style="color:white">white</span> bar is today. A <span style="color:red">theme-coloured</span> bar means the goal was achieved that day; otherwise, the bar is <span style="color:#808080">grey</span>, and the thin <span style="color:#808080">grey</span> line shows the goal value. |
 | ![Calories](/images/orbula/dial-calories@2x.png){: width="72"} | Calories | Calories goal is set manually using the [Calories Goal](#calories-goal) setting. |
@@ -236,6 +236,20 @@ Up to 6 dials may be shown in addition to the time dial, depending on the select
 | ![Wheelchair Pushes (Daily)](/images/orbula/dial-wheelchair-pushes-daily@2x.png){: width="72"} | Wheelchair Pushes (Daily) | In wheelchair mode only. |
 | ![Distance](/images/orbula/dial-distance@2x.png){: width="72"} | Distance | Total distance for the current day, in **km** (metric) or **mi** (statute), based on the Distance Units setting on your watch. |
 | ![Alarms](/images/orbula/dial-alarms@2x.png){: width="72"} | Alarms | Number of alarms set on your watch. |
+
+## Icon Row
+
+Choose to show up to 3 additional icons outside of the dials. Defaults are **Battery (%)** and **Bluetooth**. Options are:
+
+| Icon | Name | Notes |
+| :-: | :- | :- |
+|  | None | Do not show an icon in this position. |
+| ![Battery (%)](/images/orbula/icon-battery-percent-green.png){: width="32"}<br>![Battery (%) Low](/images/orbula/icon-battery-percent-yellow.png){: width="32"}<br>![Battery (%) Critical](/images/orbula/icon-battery-percent-red.png){: width="32"}<br>![Battery (%) Charging](/images/orbula/icon-battery-percent-charging.png){: width="32"} | Battery (%) | Current battery level in %. Level shown in <span style="color:#ffaa00">yellow</span> if less than 20%, or <span style="color:red">red</span> if less than 10%. **+** symbol indicates charging. |
+| ![Battery (Days)](/images/orbula/icon-battery-days-green.png){: width="32"}<br>![Battery (Days) Low](/images/orbula/icon-battery-days-yellow.png){: width="32"}<br>![Battery (Days) Critical](/images/orbula/icon-battery-days-red.png){: width="32"}<br>![Battery (Days) Charging](/images/orbula/icon-battery-days-charging.png){: width="32"} | Battery (Days) | Current battery level, with estimated remaining battery life in days or hours. |
+| ![Battery](/images/orbula/icon-battery-green.png){: width="32"}<br>![Battery Low](/images/orbula/icon-battery-yellow.png){: width="32"}<br>![Battery Critical](/images/orbula/icon-battery-red.png){: width="32"} | Battery | Current battery level icon only. |
+| ![Alarms](/images/orbula/icon-alarms.png){: width="32"}<br>![Alarms None](/images/orbula/icon-alarms-disabled.png){: width="32"} | Alarms | Icon will be shown in colour if you have at least one alarm set. |
+| ![Bluetooth Connected](/images/orbula/icon-bluetooth.png){: width="32"}<br>![Bluetooth Disconnected](/images/orbula/icon-bluetooth-disabled.png){: width="32"} | Bluetooth | Icon will be shown in colour if your watch has a Bluetooth connection to your phone. |
+| ![Notifications](/images/orbula/icon-notifications.png){: width="32"}<br>![Alarms None](/images/orbula/icon-notifications-disabled.png){: width="32"} | Notifications | Icon will be shown in colour if you have at least one unread phone notification. |
 
 ## Calories Goal
 
