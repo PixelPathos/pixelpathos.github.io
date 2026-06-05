@@ -3,6 +3,7 @@ layout: default
 title: Lumeo Weather Features
 description: Lumeo, a Garmin Connect IQ watch face by Pixel Pathos
 permalink: /lumeo/weather
+app_name: Lumeo
 ---
 ## OpenWeather Integration
 
@@ -13,12 +14,11 @@ permalink: /lumeo/weather
 OpenWeather is available in Lumeo on almost all devices. Unfortunately, due to memory limitations, it is not available on some fēnix® 6 devices.
 
 ### How do I get started?
-You will need a free OpenWeather API key, which you then need to enter in the "OpenWeather Key" box in Lumeo's settings in the Connect IQ app.
+{% capture openweather-sign-up %}
+{% include openweather-sign-up.md %}
+{% endcapture %}
 
-- **[Sign up for a free OpenWeather account]({{ site.openweather_sign_up_url }})** if you don't already have one. You will receive an account confirmation e-mail.
-- **Click on the "Verify your email" button** in the confirmation e-mail. This will log you in to your OpenWeather account.
-- **Click on the "API keys" tab.** You will see that an API key has already been generated for you. Copy, or write down this key.
-- **In Lumeo's settings in the Connect IQ app, paste the key into the "OpenWeather Key" box, and save**. Note you can also do this in Garmin Express, but not currently on the watch itself. If you already have an OpenWeather key, you can skip the previous steps and use your existing key here instead.
+{{ openweather-sign-up | markdownify }}
 
 ### How will Lumeo use the OpenWeather API key?
 Lumeo uses the "Current Weather Data" and "5 Day / 3 Hour Forecast" APIs from the "Current & Forecast weather data collection". It does not currently use the "One Call API 3.0", as that requires users to enter payment details. 
@@ -34,15 +34,11 @@ Weather fields will now show a coloured dot, indicating the status of the OpenWe
 
 ![Lumeo's OpenWeather Status Indication](/images/lumeo-open-weather-status-indication.png)
 
-| Dot Colour | Meaning |
-| --- | --- |
-| <span style="color:#666666">Grey</span> | No internet connection, or other request error. Ensure watch is paired with phone that has internet access. |
-| <span style="color:#FFAA00">Yellow</span> | Unknown location, so can't request local weather. Lumeo initially requires a location from Garmin Weather, so ensure watch is paired with a phone that has internet access. Lumeo will store the current location in case a live location is no longer available. |
-| <span style="color:red">Red</span> | Invalid API Key. Check that you have entered a valid OpenWeather key correctly. |
-| <span style="color:#FF5500">Orange</span> | Other HTTP error. |
-| <span style="color:#00AAFF">Blue</span> | A request to OpenWeather has been queued, and will be made within the next 5 minutes. **If you have just set up OpenWeather, no data will be visible until the initial request has completed.** |
-| <span style="color:white">White</span> | Successfully sent a request to OpenWeather; now awaiting response. |
-| <span style="color:#00FF00">Green</span> | Up-to-date weather information successfully received. This indication will automatically disappear after 1 minute. |
+{% capture openweather-status %}
+{% include openweather-status.md %}
+{% endcapture %}
+
+{{ openweather-status | markdownify }}
 
 ### A note about minimum/maximum temperatures when using OpenWeather
 The only free OpenWeather endpoints that do not require payments details are "Current Weather Data" and "5 Day / 3 Hour Forecast". The min/max temps provided with the current weather data are current min/max only, whereas we want min/max for the day as per Garmin Weather.

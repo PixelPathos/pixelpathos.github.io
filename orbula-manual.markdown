@@ -280,7 +280,7 @@ Turn on to show an icon next to the line meter. An icon is never shown for the M
 
 ## OpenWeather Key
 
-**Work in progress.**
+It is currently only possible to enter an OpenWeather key using the Connect IQ mobile app. For more information about how to use Orbula's OpenWeather feature, see the [OpenWeather Integration](#openweather-integration) section below.
 
 ## Calories Goal
 
@@ -299,3 +299,25 @@ Units used for the Pressure and Pressure (Graph) dials. Options are:
 - **mmHg**: millimeters of mercury
 
 Note that if your watch has a separate Pressure Units setting, this will **not** be used, due to a technical limitation.
+
+# OpenWeather Integration
+
+[OpenWeather](https://openweathermap.org/) is a popular third-party weather service, offered as an alternative to Garmin's own built-in weather service.
+
+{% capture openweather-sign-up %}
+{% include openweather-sign-up.md %}
+{% endcapture %}
+
+{{ openweather-sign-up | markdownify }}
+
+Weather-based dials will now show a coloured dot, indicating the status of the OpenWeather data. **It may take up to 5 minutes for the weather data to appear after entering your key.**
+
+![Weather with OpenWeather status](/images/orbula/dial-weather-open-weather@2x.png){: width="72"}
+![Weather (Min/Max) with OpenWeather status](/images/orbula/dial-weather-min-max-open-weather@2x.png){: width="72"}
+![Humidity with OpenWeather status](/images/orbula/dial-humidity-open-weather@2x.png){: width="72"}
+
+{% capture openweather-status %}
+{% include openweather-status.md %}
+{% endcapture %}
+
+{{ openweather-status | markdownify }}
