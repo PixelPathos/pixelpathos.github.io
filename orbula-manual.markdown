@@ -214,7 +214,7 @@ Up to 6 dials may be shown in addition to the time dial, depending on the select
 | ![Notifications](/images/orbula/dial-notifications@2x.png){: width="72"} | Notifications | Number of unread phone notifications. Icon is shown in <span style="color:#808080">grey</span> if there are no notifications. |
 | ![Heart Rate](/images/orbula/dial-heart-rate@2x.png){: width="72"} | Heart Rate | The minimum value is your resting heart rate, or zone 1 minimum if not available. The maximum value is zone 5 maximum. Heart rate zones are taken from your user profile. |
 | ![Heart Rate (Graph)](/images/orbula/dial-heart-rate-graph@2x.png){: width="72"} | Heart Rate (Graph) | The graph duration can be changed using the [Graph Duration](#graph-duration) setting. |
-| ![Heart Rate (Zones)](/images/orbula/dial-heart-rate-zones@2x.png){: width="72"} | Heart Rate (Zones) | The 5 heart rate zones (<span style="color:#aaaaaa">Z1</span>, <span style="color:#00aaff">Z2</span>, <span style="color:lightgreen">Z3</span>, <span style="color:#ffaa00">Z4</span>, <span style="color:red">Z5</span>) are taken from your user profile. |
+| ![Heart Rate (Zones)](/images/orbula/dial-heart-rate-zones@2x.png){: width="72"} | Heart Rate (Zones) | The 5 heart rate zones (<span style="color:#aaaaaa">Z1</span>, <span style="color:#00aaff">Z2</span>, <span style="color:#00ff00">Z3</span>, <span style="color:#ffaa00">Z4</span>, <span style="color:red">Z5</span>) are taken from your user profile. |
 | ![Weekly Run Distance](/images/orbula/dial-weekly-run-distance@2x.png){: width="72"} | Weekly Run Distance | Distance in **km** (metric) or **mi** (statute), based on the Distance Units setting on your watch. |
 | ![Weekly Bike Distance](/images/orbula/dial-weekly-bike-distance@2x.png){: width="72"} | Weekly Bike Distance | Distance in **km** (metric) or **mi** (statute), based on the Distance Units setting on your watch. |
 | ![Recovery Time](/images/orbula/dial-recovery-time@2x.png){: width="72"}| Recovery Time | Maximum value is 96 hours (4 days). |
@@ -251,7 +251,32 @@ Choose to show up to 3 additional icons outside of the dials. Defaults are **Bat
 
 ## Line Meter
 
-**Work in progress.**
+Choose what data the line meter shows. The icon is only shown if the [Line Meter Icon](#line-meter-icon) setting is turned on. Options are:
+
+| Icon | Name | Notes |
+| :-: | :- | :- |
+|  | None | Hide the meter. |
+| None | Move Bar | See [Move Bar](#move-bar) section below. |
+| ![Battery](/images/orbula/icon-battery-green.png){: width="32"} | Battery | |
+| ![Stress](/images/orbula/icon-stress.png){: width="32"} | Stress | |
+| ![Body Battery](/images/orbula/icon-body-battery.png){: width="32"} | Body Battery | |
+| ![Oxygen Saturation](/images/orbula/icon-o2-sat.png){: width="32"} | Oxygen Saturation | |
+| ![Solar Input](/images/orbula/icon-solar-input.png){: width="32"} | Solar Input | Solar watches only. |
+
+### Move Bar
+
+The Move Bar is a reminder to stay active. It has 5 segments. The first, longer segment, lights up after 1 hour of inactivity. Then, each shorter segments lights up after an additional 15 minutes of inactivity. You can clear the Move Bar by taking a few steps.
+
+| ![Move Bar Level 0](/images/orbula/move-bar-level-0@4x.png){: width="144"} | Active within the last hour. |
+| ![Move Bar Level 1](/images/orbula/move-bar-level-1@4x.png){: width="144"} | Inactive for 1 hour. |
+| ![Move Bar Level 2](/images/orbula/move-bar-level-2@4x.png){: width="144"} | Inactive for 1 hour 15 mins. |
+| ![Move Bar Level 3](/images/orbula/move-bar-level-3@4x.png){: width="144"} | Inactive for 1 hour 30 mins. |
+| ![Move Bar Level 4](/images/orbula/move-bar-level-4@4x.png){: width="144"} | Inactive for 1 hour 45 mins. |
+| ![Move Bar Level 5](/images/orbula/move-bar-level-5@4x.png){: width="144"} | Inactive for 2 hours or longer. |
+
+## Line Meter Icon
+
+Turn on to show an icon next to the line meter. An icon is never shown for the Move Bar, because its appearance is already distinguishable from other uses of the Line Meter.
 
 ## OpenWeather Key
 
