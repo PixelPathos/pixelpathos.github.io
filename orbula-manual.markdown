@@ -310,6 +310,11 @@ Note that if your watch has a separate Pressure Units setting, this will **not**
 
 {{ openweather-sign-up | markdownify }}
 
+By default, when using OpenWeather, Orbula will show min/max temperatures for the rest of the current day only, due to a technical limitation. To show true min/max temperatures for the whole of the current day, Orbula can now use the OpenWeather One Call API:
+
+- **Subscribe to the OpenWeather One Call API [here](https://openweathermap.org/api).** You will need to provide payment information. The first 1,000 calls to this API each day are free;  Orbula will stay well under this limit, so you will not be charged. If you are concerned about this, you can change the call limit for your subscription [here](https://home.openweathermap.org/subscriptions) to stay under the free limit. The subscription will apply across all your existing API keys - you do not need to generate a new one.
+- **In Orbula's settings in the Connect IQ app, enable the "Use One Call API" setting, and save**.
+
 Weather-based dials will now show a coloured dot, indicating the status of the OpenWeather data. **It may take up to 5 minutes for the weather data to appear after entering your key.**
 
 ![Weather with OpenWeather status](/images/orbula/dial-weather-open-weather@2x.png){: width="72"}
